@@ -1,0 +1,24 @@
+# Glogal .gitignore #
+
+# Eclipse related files
+.settings
+.classpath
+.project
+
+# InteliJ files #
+.idea
+.idea/*
+*.iml
+
+# Build Folders and files
+target/
+
+*.tar.gz
+*.tgz
+
+# We should not commit node_modules for applications
+root/docs/src/site/resources/showcase/demos/**/node_modules
+root/src/demos/**/node_modules
+
+# We should not commit npm debug logs
+npm-debug.log
